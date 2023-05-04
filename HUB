@@ -2807,3 +2807,5 @@ local FirstToggle = FirstPage.AddToggle("Hello", false, function(Value)
 print(Value)
 end)
 ]]
+local FirstPage = MainUI.AddPage("CREDITS")
+local FirstLabel = FirstPage.AddLabel("| BY Kenzy#1265 |")
