@@ -1,6 +1,6 @@
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/twink"))()
  
-local MainUI = UILibrary.Load("KENZY HUB ( COMEBACK )")
+local MainUI = UILibrary.Load("KENZY HUB V4.0")
 local FirstPage = MainUI.AddPage("Home")
 local FirstLabel = FirstPage.AddLabel("Welcome " .. game.Players.LocalPlayer.DisplayName)
 local FirstLabel = FirstPage.AddLabel("-- STATUS : RELEASE --")
