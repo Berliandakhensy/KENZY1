@@ -17,7 +17,7 @@ local FirstLabel = FirstPage.AddLabel("Scripts")
 local FirstLabel = FirstPage.AddLabel("-- NOTE: WELCOME")
 local FirstLabel = FirstPage.AddLabel("-- NOTE: script")
 local FirstLabel = FirstPage.AddLabel("-- Private HUB --")
-local FirstButton = FirstPage.AddButton("Keyboard Script", function()
+local FirstButton = FirstPage.AddButton("PLS DONATE BY LOLCAT", function()
 
     loadstring(game:HttpGet("https://pastebin.com/raw/ybyQ6w5L'))()", true))()
 
