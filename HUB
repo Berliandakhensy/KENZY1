@@ -1,11 +1,11 @@
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/twink"))()
  
-
 local FirstPage = MainUI.AddPage("credits")
 local FirstLabel = FirstPage.AddLabel("-- official Dev✓#1265 --")
 local FirstLabel = FirstPage.AddLabel("-- toxic#7161 --")
 local FirstLabel = FirstPage.AddLabel("-- 🧊 ୧⍤⃝ 🌹#9258 --")
 local MainUI = UILibrary.Load("lolcat hub V4.1.2")
+
 local FirstPage = MainUI.AddPage("Home")
 local FirstLabel = FirstPage.AddLabel("-- JOIN DISCORD SERVER --")
 local FirstLabel = FirstPage.AddLabel("-- https://discord.gg/8AFH5pSN --")
@@ -26,9 +26,7 @@ local FirstLabel = FirstPage.AddLabel("-- NOTE: WELCOME")
 local FirstLabel = FirstPage.AddLabel("-- NOTE: script")
 local FirstLabel = FirstPage.AddLabel("-- lolcat HUB --")
 local FirstButton = FirstPage.AddButton("PLS DONATE BY LOLCAT", function()
-
     loadstring(game:HttpGet("https://pastebin.com/raw/ybyQ6w5L'))()", true))()
-
 end)  
 local FirstButton = FirstPage.AddButton("Keyboard Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
