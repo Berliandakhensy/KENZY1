@@ -2516,7 +2516,7 @@ loadstring(game:HttpGet("https://lkhub.net/s/loader.lua"))()
 local FirstButton = FirstPage.AddButton("Syntax Hub (V2)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Vallater/SyntaxV2/b7a88a7b84174e3c2220c7a8ca477e40699ddd2c/Syntaxontop',true))()
 end)
-local FirstButton = FirstPage.AddButton("Éclipse hub", function()
+local FirstButton = FirstPage.AddButton("Eclipse hub", function()
 
     loadstrinloadstring(game:Httploadstring(game:HttpGet("https://raw.githubusercontent.com/Berliandakhensy/Eclipse/main/Hub"))();
 
