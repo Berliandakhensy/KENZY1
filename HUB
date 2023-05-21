@@ -3,8 +3,10 @@ local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/blo
  
 local MainUI = UILibrary.Load("lolcat hub V4.1.5")
 local FirstPage = MainUI.AddPage("credits")
+local FirstLabel = FirstPage.AddLabel("-- credits --")
 local FirstLabel = FirstPage.AddLabel("-- official#1265 --")
 local FirstLabel = FirstPage.AddLabel("-- 🧊 ୧⍤⃝ 🌹#9258 --")
+local FirstLabel = FirstPage.AddLabel("-- Discord --")
 local FirstLabel = FirstPage.AddLabel("-- JOIN DISCORD SERVER --")
 local FirstLabel = FirstPage.AddLabel("-- my discord :) --")
 local FirstLabel = FirstPage.AddLabel("-- https://discord.gg/JCTt93Kd --")
