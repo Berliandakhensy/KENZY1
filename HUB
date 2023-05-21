@@ -2519,9 +2519,6 @@ end)
    local First Button = FirstPage.AddButton("Moon Hub", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Gae7YC84"))()
 end)
-local FirstButton = FirstPage.AddButton("EZ Hub", function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
-end)
 local FirstButton = FirstPage.AddButton("Nullware Hub", function()
     local LocalPlayer = game:GetService("Players").LocalPlayer
     local Heartbeat = game:GetService("RunService").Heartbeat
