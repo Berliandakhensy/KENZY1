@@ -2,7 +2,7 @@
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/twink"))()
  
 local MainUI = UILibrary.Load("lolcat hub V4.1.5")
-local FirstPage = MainUI.AddPage("credits")
+local FirstPage = MainUI.AddPage("Credits")
 local FirstLabel = FirstPage.AddLabel("-- credits --")
 local FirstLabel = FirstPage.AddLabel("-- official#1265 --")
 local FirstLabel = FirstPage.AddLabel("-- 🧊 ୧⍤⃝ 🌹#9258 --")
