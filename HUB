@@ -2470,12 +2470,7 @@ local FirstPage = MainUI.AddPage("Hubs")
  
 local FirstButton = FirstPage.AddButton("Universal Hub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
-end)
-
-local FirstButton = FirstPage.AddButton("Éclipse hub", function()
-
-    loadstrinloadstring(game:Httploadstring(game:HttpGet("https://raw.githubusercontent.com/Berliandakhensy/Eclipse/main/Hub"))();
-
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
 end)
 local FirstButton = FirstPage.AddButton("Owl Hub", function()
     loadstrinloadstring(game:Httploadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
@@ -2520,6 +2515,11 @@ loadstring(game:HttpGet("https://lkhub.net/s/loader.lua"))()
     end)
 local FirstButton = FirstPage.AddButton("Syntax Hub (V2)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Vallater/SyntaxV2/b7a88a7b84174e3c2220c7a8ca477e40699ddd2c/Syntaxontop',true))()
+end)
+local FirstButton = FirstPage.AddButton("Éclipse hub", function()
+
+    loadstrinloadstring(game:Httploadstring(game:HttpGet("https://raw.githubusercontent.com/Berliandakhensy/Eclipse/main/Hub"))();
+
 end)
    local First Button = FirstPage.AddButton("Moon Hub", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Gae7YC84"))()
