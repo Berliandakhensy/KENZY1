@@ -2475,6 +2475,10 @@ local FirstPage = MainUI.AddPage("Hubs")
 local FirstButton = FirstPage.AddButton("Universal Hub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
 end)
+
+local FirstButton = FirstPage.AddButton("Éclipse hub", function()
+
+    loadstring(game:HttpGet(('https://pastebin.com/raw/q8vAk9ns'),true))()
  
 local FirstButton = FirstPage.AddButton("Owl Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
