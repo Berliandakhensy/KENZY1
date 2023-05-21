@@ -20,7 +20,7 @@ local FirstLabel = FirstPage.AddLabel("-- THANK YOU FOR USING MY SCRIPT --")
 local FirstLabel = FirstPage.AddLabel("-- Updates --")
 local FirstLabel = FirstPage.AddLabel("| 106 script |")
 local FirstLabel = FirstPage.AddLabel("| Added New Scripts |")
-local FirstLabel = FirstPage.AddLabel("| update : added version ")
+local FirstLabel = FirstPage.AddLabel("| update : add icehub in games ")
 local FirstLabel = FirstPage.AddLabel("might be broken sorry |")
 local FirstLabel = FirstPage.AddLabel("-- lolcat hub Released! --")
 local FirstButton = FirstPage.AddButton("Keyboard Script", function()
@@ -2231,6 +2231,10 @@ local FirstButton = FirstPage.AddButton("Adopt Me", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
  
+ local FirstButton = FirstPage.AddButton("Brookhaven rp icehub", function()
+
+loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
+
 local FirstButton = FirstPage.AddButton("Build A Boat For Treasure", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
 end)
@@ -2786,7 +2790,7 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/m
 --[[
 local FirstPage1 = MainUI.AddPage("Premium")
 local FirstLabel = FirstPage1.AddLabel("Premium: 499 Robux")
-local FirstLabel = FirstPage1.AddLabel("Add Me MoonUI#0410 and send me proof!")
+local FirstLabel = FirstPage1.AddLabel("?")
 local FirstLabel = FirstPage1.AddLabel("After You Buy Premium Ill Send You The Link For It!")
 local FirstLabel = FirstPage1.AddLabel("TIP: When you click buy premium it will copy a link to buy it.")
 local FirstButton = FirstPage1.AddButton("Buy Premium", function()
