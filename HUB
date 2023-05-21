@@ -2230,10 +2230,6 @@ local FirstLabel = FirstPage.AddLabel("Only Execute These Scripts If You Are In 
 local FirstButton = FirstPage.AddButton("Adopt Me", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
- 
- local FirstButton = FirstPage.AddButton("Brookhaven rp icehub", function()
-
-loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
 
 local FirstButton = FirstPage.AddButton("Build A Boat For Treasure", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
