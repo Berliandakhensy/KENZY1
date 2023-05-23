@@ -3,7 +3,7 @@ local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/blo
  
 local MainUI = UILibrary.Load("lolcat hub V4.1.6")
 local FirstPage = MainUI.AddPage("Credits")
-local FirstLabel = FirstPage.AddLabel("-- credits --")
+local FirstLabel = FirstPage.AddLabel("-- Credits --")
 local FirstLabel = FirstPage.AddLabel("-- official#1265 --")
 local FirstLabel = FirstPage.AddLabel("-- 🧊 ୧⍤⃝ 🌹#9258 --")
 local FirstLabel = FirstPage.AddLabel("-- Discord --")
@@ -2441,4 +2441,5 @@ end)
 local FirstButton = FirstPage.AddButton("Bedwars", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VeztWare/Vezt/main/Vezt%20-%20BedWars%20(Private).lua"))()
 end)  
-
+local FirstPage = MainUI.AddPage("Hubs")
+local FirstLabel = FirstPage.AddLabel("-- Soon --")
