@@ -26,6 +26,17 @@ local FirstLabel = FirstPage.AddLabel("-- official hub Released! --")
 local FirstButton = FirstPage.AddButton("Keyboard Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)  
+local FirstPage = MainUI.AddPage("trolling")
+local FirstButton = FirstPage.AddButton("Crash a sever troll", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/ChatLag.lua"))()
+
+ 
+
+-- Anti Chat Lag
+
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLag.lua"))()
+end)  
 local FirstPage = MainUI.AddPage("Scripts hub")
 local FirstLabel = FirstPage.AddLabel("Scripts")
 local FirstLabel = FirstPage.AddLabel("made by official#1265 Indonesian")
