@@ -8,6 +8,8 @@ local FirstLabel = FirstPage.AddLabel("Welcome " .. game.Players.LocalPlayer.Dis
 
 local FirstLabel = FirstPage.AddLabel("-- This script is made by official Dev✓#1265 --")
 
+local FirstLabel = FirstPage.AddLabel("-- status : fix some bugs --")
+
 local FirstLabel = FirstPage.AddLabel("-- ⚠️this script auto updates⚠️ --")
 
 local FirstLabel = FirstPage.AddLabel("-- thanks for using my script  --")
