@@ -215,6 +215,13 @@ local FirstButton = FirstPage.AddButton("Prison life admin", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
 
 end)  
+local FirstLabel = FirstPage.AddLabel("-- Chaos gui --")
+
+local FirstButton = FirstPage.AddButton("Chaos Gui", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/KW5vJcMb'))();
+
+end)  
 
 local FirstPage = MainUI.AddPage("Discord")
 
