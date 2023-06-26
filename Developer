@@ -1,0 +1,632 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Developer hub | [ Beta ]", HidePremium = false, IntroText = " Developer hub [ Beta ]", SaveConfig = true, ConfigFolder = "Developer hub [ Beta ]"})
+
+OrionLib:MakeNotification({
+	Name = "Ready!",
+	Content = "Powerful from Game Hub v1.5",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+OrionLib:Init()
+
+local Tab = Window:MakeTab({
+	Name = "Home",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Welcome, " .. game.Players.LocalPlayer.DisplayName)
+Tab:AddLabel("-- thanks for using my script --")
+Tab:AddLabel("-- Script : 61 --")
+Tab:AddLabel("-- ⚠️this script auto updates⚠️ --")
+Tab:AddLabel("-- Credits --")
+Tab:AddLabel("-- dev_script --")
+Tab:AddLabel("-- YO_12#1889 --")
+Tab:AddLabel("-- privatehub --")
+Tab:AddLabel("-- Join discord server --")
+Tab:AddLabel("-- Script x --")
+Tab:AddLabel("-- https://discord.gg/RTDxDDXsxS --")
+Tab:AddLabel("-- Hope it is useful --")
+
+local Tab = Window:MakeTab({
+	Name = "Script/Fe",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddLabel("-- Script/Fe --")
+Tab:AddButton({
+	Name = "vfly",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Noclip",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/QKbzxzSj'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "block spawner script",
+	Callback = function()
+	local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local part = Instance.new("Part")
+part.BrickColor = BrickColor.new("Bright blue")
+part.Size = Vector3.new(5, 5, 5)
+
+while true do
+    local position = character.PrimaryPart.Position
+    local randomOffset = Vector3.new(math.random(-10, 10), math.random(-10, 10), math.random(-10, 10))
+    part:Clone().Parent = workspace
+    part.Position = position + randomOffset
+    wait(0.1) -- Adjust the delay between spawns as desired
+end
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "keyboard normal",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "fe free emote",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sound Control",
+	Callback = function()
+	loadstring(game:HttpGet(('https://pastefy.ga/iVGL5PAg/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Chat hax",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/MBpnp3yS'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "click fling",
+	Callback = function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FPS COUNTER",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Free valk",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero-x-y/aksdmsadz/Loader/Xero.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp gui",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/1dM3mAJq'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Free valk",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero-x-y/aksdmsadz/Loader/Xero.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hitbox",
+	Callback = function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\84\117\76\56\53\57\57\77\39\41\41\40\41\10")()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Auto jump",
+	Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/vViq08jX'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "infinite yield",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "arceus x ui",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling Touch",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ScriptSearcher",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FE SPIDERMAN GUI",
+	Callback = function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/2X0hKUgq'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FLY V3",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/QGLvkvU7"))() 
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddLabel("Games")
+
+Tab:AddButton({
+	Name = "CHAOS GUI",
+	Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1YQN7Vs2"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "INFECTIOUS SMILE BEST WORKING GUI",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/InfectiousSmile.lua", true))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "PRISONWARE V1.3",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tiger admin",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "victory race",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/itzRolf/Utilities/main/Victory%20Races/main.lua",true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "tower of hell",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "DA hood gui",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Balligusapos/Balligusapos/main/DHIDIOT"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "the mimic",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicPoomHubBookIIFirst/main/.Lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "slap battel",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "rock fruit",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/VQMzGedH'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "roblox talent show",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/78n/Amity/main/RobloxTalentShow.lua'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Free draw",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/14ms-alt/Roblox-Scripts/main/free_draw_big_square.lua'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "pet simulator x",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pet sim x free GAMEPASS",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "kat script",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zombie attack",
+	Callback = function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/xSyon/ZombieAttack/main/engine.lua'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "scp 3000",
+	Callback = function()
+	loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "easy obby",
+	Callback = function()
+	loadstring(game:HttpGet"https://pastebin.com/raw/071xrmki")()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "survive the killer",
+	Callback = function()
+	local games = {
+
+    ["SurviveTheKiller"] = 4580204640
+
+}
+
+for i,v in pairs(games) do
+    if game.PlaceId == v then print("Supported!"); loadstring(game:HttpGet("http://raw.githubusercontent.com/MiloHaxx/ChairWare/main/Games/" .. i .. ".lua", true))() end
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/dcJoin.lua", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Doors",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "My restaurant",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LasagnaLINKS/LasagnaLinksHUB/main/Ifjdbzkwbxbekjdjeksncjwobckeknenskwbcorjcjjejdbb"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Vape v4 ( bedwars )",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Infinite Jumps and Vape";
+    Text = "Mixed by JN HH Gaming"; -- what the text says (ofc)
+    Duration = 30;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Enjoy";
+    Text = "Don't Forget to Subscribe JN HH Gaming"; -- what the text says (ofc)
+    Duration = 30;
+})
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "blox fruit",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "icehub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Auto piano🎹",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+      		print("button pressed")
+  	end    
+}) 
+
+Tab:AddButton({
+	Name = "mm2 panel",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddLabel("Hubs")
+
+Tab:AddButton({
+	Name = "vhub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "LX hub",
+	Callback = function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gogogamer61/LXHub-Main/main/LXHub%20Main%20Script'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bido Skins hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20SkinsV1.5"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pro hub",
+	Callback = function()
+	loadstring(game:HttpGet(("https://cdn.discordapp.com/attachments/922823751127683082/994188489358835752/Protected.lua"), true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "RTX GUI",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/enhancer.txt"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mini hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ghost HUB BEST",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Simple v3",
+	Callback = function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Simple-V3-8819", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "script hub",
+	Callback = function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/cHfXLMNP'),true))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Admin script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Admin script")
+
+Tab:AddButton({
+	Name = "nameless admin",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FATES ADMIN SCRIPT",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "REVIZ ADMIN",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "animation",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("-- animation --")
+Tab:AddLabel("-- need R6/R15👇 --")
+Tab:AddLabel("-- no need items👇 --")
+
+Tab:AddButton({
+	Name = "energize script",
+	Callback = function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel("-- need R15👇 --")
+Tab:AddLabel("-- no need items👇 --")
+
+Tab:AddButton({
+	Name = "Perm animation script",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel("-- need R6👇 --")
+Tab:AddLabel("-- no need items👇 --")
+
+Tab:AddButton({
+	Name = "dog script",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/H0fCpUYQ"))();
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel("-- need R6/R15👇 --")
+Tab:AddLabel("-- no need items👇 --")
+
+Tab:AddButton({
+	Name = "Fe snake script",
+	Callback = function()
+	loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel("-- need R6👇 --")
+Tab:AddLabel("-- no need items👇 --")
+
+Tab:AddButton({
+	Name = "Fe custom sit",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel("-- need R6/R15👇 --")
+Tab:AddLabel("-- no need items👇 --")
+
+Tab:AddButton({
+	Name = "nameless animation",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/d3uB90XA"))();
+      		print("button pressed")
+  	end    
+})
