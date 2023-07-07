@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Developer hub | [ Beta ]", HidePremium = false, IntroText = " Developer hub [ Beta ]", SaveConfig = true, ConfigFolder = "Developer hub [ Beta ]"})
+local Window = OrionLib:MakeWindow({Name = "Developer hub | V2.1.7", HidePremium = false, IntroText = " Developer hub [ Beta ]", SaveConfig = true, ConfigFolder = "Developer hub [ Beta ]"})
 
 OrionLib:MakeNotification({
 	Name = "Ready!",
@@ -18,11 +18,11 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("Welcome, " .. game.Players.LocalPlayer.DisplayName)
 Tab:AddLabel("-- thanks for using my script --")
 Tab:AddLabel("-- Script : 61 --")
-Tab:AddLabel("-- ⚠️this script auto updates⚠️ --")
+Tab:AddLabel("-- this script auto updates --")
 Tab:AddLabel("-- Credits --")
 Tab:AddLabel("-- dev_script --")
 Tab:AddLabel("-- YO_12#1889 --")
-Tab:AddLabel("-- privatehub --")
+Tab:AddLabel("--  --")
 Tab:AddLabel("-- Join discord server --")
 Tab:AddLabel("-- Script x --")
 Tab:AddLabel("-- https://discord.gg/RTDxDDXsxS --")
@@ -565,8 +565,8 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddLabel("-- animation --")
-Tab:AddLabel("-- need R6/R15👇 --")
-Tab:AddLabel("-- no need items👇 --")
+Tab:AddLabel("-- need R6/R15 --")
+Tab:AddLabel("-- no need items --")
 
 Tab:AddButton({
 	Name = "energize script",
@@ -576,8 +576,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddLabel("-- need R15👇 --")
-Tab:AddLabel("-- no need items👇 --")
+Tab:AddLabel("-- need R15 --")
+Tab:AddLabel("-- no need items --")
 
 Tab:AddButton({
 	Name = "Perm animation script",
@@ -587,8 +587,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddLabel("-- need R6👇 --")
-Tab:AddLabel("-- no need items👇 --")
+Tab:AddLabel("-- need R6 --")
+Tab:AddLabel("-- no need items --")
 
 Tab:AddButton({
 	Name = "dog script",
@@ -598,8 +598,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddLabel("-- need R6/R15👇 --")
-Tab:AddLabel("-- no need items👇 --")
+Tab:AddLabel("-- need R6/R15 --")
+Tab:AddLabel("-- no need items --")
 
 Tab:AddButton({
 	Name = "Fe snake script",
@@ -609,8 +609,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddLabel("-- need R6👇 --")
-Tab:AddLabel("-- no need items👇 --")
+Tab:AddLabel("-- need R6 --")
+Tab:AddLabel("-- no need items --")
 
 Tab:AddButton({
 	Name = "Fe custom sit",
@@ -620,8 +620,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddLabel("-- need R6/R15👇 --")
-Tab:AddLabel("-- no need items👇 --")
+Tab:AddLabel("-- need R6/R15 --")
+Tab:AddLabel("-- no need items --")
 
 Tab:AddButton({
 	Name = "nameless animation",
